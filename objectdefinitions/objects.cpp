@@ -3,6 +3,13 @@
 
 using namespace std;
 
+
+
+
+
+
+
+
 class Component 
 { 
     private:
@@ -76,18 +83,4 @@ int main()
     enum type { generator, battery, engine, dynamo };
     Component comp(3) ;
     comp.read();
-}
-
-class Module
-{
-    private:
-        int xDimensions;
-        int yDimensions;
-    Module(int xIn, int yIn)
-    {
-        xDimensions = xIn;
-        yDimensions = yIn;
-
-
-    }
 }
